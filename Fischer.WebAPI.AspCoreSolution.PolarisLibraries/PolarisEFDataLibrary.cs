@@ -1,17 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Runtime.CompilerServices;
-using System.Text;
 using System.Threading.Tasks;
-using System.Data;
-using System.Data.SqlClient;
 using System.Linq;
-using System.Reflection.Metadata;
-using System.Threading;
 using Fischer.WebAPI.AspCoreSolution.PolarisLibraries.Interfaces;
 using Fischer.WebAPI.AspCoreSolution.PolarisLibraries.Objects;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.IdentityModel.Tokens;
 
 namespace Fischer.WebAPI.AspCoreSolution.PolarisLibraries
 {

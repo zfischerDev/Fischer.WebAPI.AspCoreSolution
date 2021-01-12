@@ -7,8 +7,6 @@ using Fischer.WebAPI.AspCoreSolution.PolarisLibraries.Interfaces;
 using Fischer.WebAPI.AspCoreSolution.PolarisLibraries.Objects;
 using Microsoft.Extensions.Configuration;
 
-// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-
 namespace Fischer.WebAPI.AspCoreSolution.PolarisWebApi.Controllers
 {
     [Route("api/[controller]")]
@@ -50,7 +48,6 @@ namespace Fischer.WebAPI.AspCoreSolution.PolarisWebApi.Controllers
             }
         }
 
-        // GET api/<AccountProcessing>/5
         [HttpGet("GetSingleAccountHolderByGuid/{accountGuid}")]
         public IPolarisAccountHolder GetSingleAccountHolderByGuid(string accountGuid)
         {
@@ -77,7 +74,6 @@ namespace Fischer.WebAPI.AspCoreSolution.PolarisWebApi.Controllers
 
         }
 
-        // POST api/<PolarisApi>
         [HttpPost("CreateNewAccountHolder")]
         public void PostAccountHolder([FromBody] PolarisAccountHolder polarisAccountHolder)
         {
@@ -117,7 +113,6 @@ namespace Fischer.WebAPI.AspCoreSolution.PolarisWebApi.Controllers
             }
         }
 
-        // POST api/<PolarisApi>
         [HttpPost("CreateNewAccountHolderNoAccountGuid")]
         public void PostAccountHolderNoAccountGuidField([FromBody] PolarisAccountHolder polarisAccountHolder)
         {
@@ -143,7 +138,6 @@ namespace Fischer.WebAPI.AspCoreSolution.PolarisWebApi.Controllers
             }
         }
 
-        // DELETE api/<AccountProcessing>/5
         [HttpDelete("DeleteAccountHolderByAccountGuid/{accountGuid}")]
         public void DeleteAccountHolderByAccountGuid(string accountGuid)
         {

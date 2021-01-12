@@ -21,7 +21,6 @@ namespace Fischer.WebAPI.AspCoreSolution.PolarisWebApi.Controllers
             config = theConfiguration;
         }
 
-        // GET api/<PolarisMain>/5
         [HttpGet("GetTransactionsByAccountGuid/{accountGuid}")]
         public async Task<ActionResult<List<IPolarisTransaction>>> GetTransactionsByAccountGuid(string accountGuid)
         {
@@ -52,7 +51,7 @@ namespace Fischer.WebAPI.AspCoreSolution.PolarisWebApi.Controllers
                 throw;
             }
         }
-        // DELETE api/<AccountProcessing>/5
+
         [HttpDelete("DeleteTransactionsByTransactionGuid/{transactionId}")]
         public void DeleteTransactionsByTransactionGuid(string transactionId)
         {
@@ -70,7 +69,7 @@ namespace Fischer.WebAPI.AspCoreSolution.PolarisWebApi.Controllers
             }
         }
 
-        // DELETE api/<AccountProcessing>/5
+
         [HttpDelete("DeleteAllTransactionsByAccountGuid/{accountId}")]
         public void DeleteAllTransactionsByAccountGuid(string accountId)
         {

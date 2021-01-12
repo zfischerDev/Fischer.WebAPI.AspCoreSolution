@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace Fischer.WebAPI.AspCoreSolution.PolarisLibraries.Interfaces
