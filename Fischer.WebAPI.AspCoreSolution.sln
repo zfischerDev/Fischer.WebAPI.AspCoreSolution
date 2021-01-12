@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fischer.WebAPI.AspCoreSolution.PolarisWebApi", "Fischer.WebAPI.AspCoreSolution.PolarisWebApi\Fischer.WebAPI.AspCoreSolution.PolarisWebApi.csproj", "{93465E5D-82DD-4AEF-909A-42CBF676F945}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fischer.WebAPI.AspCoreSolution.PolarisLibraries", "Fischer.WebAPI.AspCoreSolution.PolarisLibraries\Fischer.WebAPI.AspCoreSolution.PolarisLibraries.csproj", "{2AC8A147-F803-4714-B111-A35C4D163411}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93465E5D-82DD-4AEF-909A-42CBF676F945}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93465E5D-82DD-4AEF-909A-42CBF676F945}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93465E5D-82DD-4AEF-909A-42CBF676F945}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93465E5D-82DD-4AEF-909A-42CBF676F945}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AC8A147-F803-4714-B111-A35C4D163411}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AC8A147-F803-4714-B111-A35C4D163411}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AC8A147-F803-4714-B111-A35C4D163411}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AC8A147-F803-4714-B111-A35C4D163411}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {53DE5786-4648-42C8-BC7E-708C0318DD96}
+	EndGlobalSection
+EndGlobal
